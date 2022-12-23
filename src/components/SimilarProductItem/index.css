@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.list-product-item {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+.similar-product-img {
+  width: 220px;
+  border-radius: 8px;
+}
+
+.similar-product-title {
+  font-size: 16px;
+  color: #1e293b;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+.similar-product-brand {
+  font-size: 17px;
+  color: #475569;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-top: 10px;
+}
+
+.similar-product-rating-price-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.similar-product-price {
+  font-size: 20px;
+  color: #171f46;
+  font-weight: 800;
+  font-family: 'Roboto';
+}
+
+.similar-product-rating-container {
+  display: flex;
+  align-items: center;
+  background-color: #3b82f6;
+  border-radius: 6px;
+  padding-left: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-right: 8px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.similar-product-rating {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  margin-right: 4px;
+}
+.similar-product-star {
+  height: 15px;
+  width: 15px;
+}
